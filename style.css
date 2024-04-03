@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::selection {
+    background-color: pink;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    width: 100%;
+}
+section {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: pink;
+    padding: 50px;
+    border-radius: 12px;
+}
+span {
+color: white;
+}
+.h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* ======= input form   ============= */
+form {
+    margin-top: 40px;
+}
+input {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    gap: 10px;
+    transition: .2s
+}
+.password {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+input:focus{
+    background-color: pink;
+    border: 1px solid black;
+}
+.form-check-input:checked {
+    background-color: pink;
+    border-color: black;
+}
+ .form-check-input {
+    float: left;
+    margin-right: 1.2em;
+    margin-bottom: 20px;
+}
+.form-check-input {
+    width: 1em;
+    margin-top: .25em;
+    vertical-align: top;
+    background-color: black;
+    background-color: black;
+  
+}
+
+/*====== button =======*/
+
+button {
+    border: none;
+}
+#login:hover {
+    background-color: white;
+    color: black;
+
+}
+#login {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    transition: .4s;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+}
+#register {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 30%;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: .2s;
+    cursor: pointer;
+    color: black;
+
+
+}
+#register:hover {
+    background-color: black;
+    color: white;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+
+
+@media screen and (max-width: 428px) {
+    .container {
+        max-width: 300px;
+        margin: auto;
+        width: 100%;
+    }
+    #register {
+        width: 48%;
+    }
+    section {
+        padding: 64px 17px;
+    }
+    .h1 {
+        font-size: 1.9rem;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 600px;
+        margin: auto;
+        width: 100%;
+    }
+}
